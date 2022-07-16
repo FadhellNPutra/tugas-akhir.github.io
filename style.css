@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*, html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', serif;
+}
+
+body{
+    background-color: #532E1C;
+}
+
+/* header */
+h1{
+    color: #ffffff;
+}
+
+h1, figure, nav{
+	text-align: center;
+    padding: 20px;
+}
+img[src="./220px-Chrisye,_Jakarta_Govt_website.jpg"
+]{
+    border-radius: 34%;
+}
+nav{
+    padding: 2.5em 0 2.5em 0;
+    background-color: #E6E6E6;
+    border:solid teal 2px;
+    box-shadow: 0 10px 10px 0;
+}
+
+.container-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button-nav{
+    list-style-type: none;
+    flex-grow: 10;
+    text-decoration: none;
+    box-sizing: 100px;
+}
+
+.button-nav:hover{
+    background-color: crimson;
+    height: max-content;
+    width: max-content;   
+}
+
+h1{
+    padding-top: 40px;
+}
+
+
+/* Biografi */
+main{
+    background-color: #C5A880;
+    padding-top: 30px;
+}
+
+#biografi-singkat > h3{
+    text-align: center;
+    padding: 24px;
+    font-size: 50px;
+}
+
+#biografi-singkat > p{
+    margin: 15px 0 15px 0;
+}
+
+
+
+/* Timeline */
+#timeline > h3{
+    font-size: 50px;
+}
+#timeline{
+    padding-top: 40px;
+}
+
+#timeline > h3{
+    text-align: center;
+}
+
+#timeline > ul{
+    padding: 30px 0 30px 10px;
+}
+
+#timeline > ul > li{
+    list-style-type: none;
+    padding: 24px;
+}
+
+
+/* Karya */
+#karya > h3{
+    font-size: 50px;
+}
+
+#karya > h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#karya > ul{
+    padding-left: 5%;
+}
+#karya > h4, h5{
+    text-align: center;
+}
+
+#karya > h4{
+    padding: 15px;
+    font-size: 34px;
+}
+
+#karya > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+div > ul > li{
+    list-style-type: none;
+    padding: 12px;
+}
+
+div > ul > li:nth-child(even){
+    background-color: #E6E6E6;
+    border-radius: 20px;
+}
+
+#karya > .colab{
+    padding: 23px;
+}
+
+#karya > h5{
+    font-size: 22px;
+}
+#karya > ul > li{
+    text-align: center;
+    list-style-type: none;
+    padding: 35px 0 29px 0;
+}
+#karya > h4, h5{
+    font-style: italic;
+}
+/* Footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+footer > p{
+    padding: 15px 0 0 40px;
+}
+
+@media (min-width: 600px){
+#biografi{
+    text-align: center;
+    
+}
+}
